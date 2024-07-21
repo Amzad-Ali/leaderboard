@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.leaderboard-container {
+    background: url('image 65 (1).png') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    margin: auto;
+}
+
+.leaderboard-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.leaderboard {
+    width: 80%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.leaderboard .header,
+.leaderboard .entry {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: #fff;
+    margin-bottom: 20px; 
+}
+
+.leaderboard .header {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+}
+
+.leaderboard .left-side {
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+}
+
+.leaderboard .rank,
+.leaderboard .player,
+.leaderboard .time {
+    text-align: left;
+}
+
+.leaderboard .time {
+    width: 30%;
+    text-align: right;
+}
+
+.leaderboard .rank {
+    font-weight: bold;
+    margin-right: 100px; /* Increase the space between Rank and Player */
+}
+
+.leaderboard .player {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.leaderboard .time {
+    color: #ff5722;
+}
+
+.leaderboard .entry {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0 0 40px 0px;
+    margin-bottom: 20px; /* Add gap between each list item */
+    box-shadow: 0px 1px 6px 0px blue;
+}
+.footer{
+    width: 83%;
+    height: 50vh;
+    margin: auto;
+    background-image: url('BANER-SHANNH\ 1.png');
+}
